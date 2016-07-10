@@ -9,7 +9,7 @@ public class ScoreAssessment
 {
 
     Score[] scores;
-    private  HashMap<String, String> languageMapping;
+    private HashMap<String, String> languageMapping;
 
 
     public ScoreAssessment(Score[] scores)
