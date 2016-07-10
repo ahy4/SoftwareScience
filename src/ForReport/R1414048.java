@@ -272,7 +272,7 @@ class ScoreAssessment
     @Override
     public String toString()
     {
-        String result = "順位,受験番号,点数,選択理科1,選択理科2";
+        String result = "順位,受験番号,点数,選択理科1,選択理科2\n";
         int rank = 1;
         int prevScore = 0;
         for (int i = 0; i < scores.length; i++)
