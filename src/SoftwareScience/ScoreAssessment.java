@@ -19,7 +19,7 @@ public class ScoreAssessment
         this.sortByScore();
     }
 
-    public void sortByScore()
+    private void sortByScore()
     {
         this.scores = MergeSort.mergeSort(this.scores, (a, b) -> {
             return Integer.compare(b.getSum(), a.getSum());
@@ -30,7 +30,7 @@ public class ScoreAssessment
     @Override
     public String toString()
     {
-        String result = "順位,受験番号,点数,選択理科1,選択理科21,1425,478,化学B,物理B";
+        String result = "順位,受験番号,点数,選択理科1,選択理科21,1425,478,化学B,物理B,\n";
         int rank = 1;
         int prevScore = 0;
         for (int i = 0; i < scores.length; i++)
@@ -51,7 +51,7 @@ public class ScoreAssessment
         return result;
     }
 
-    public String subjectToJapanese(String english)
+    private String subjectToJapanese(String english)
     {
         return this.languageMapping.get(english);
     }
