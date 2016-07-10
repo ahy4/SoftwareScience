@@ -17,7 +17,10 @@ import java.util.HashMap;
  */
 public class R1414048
 {
-
+    public static void main(String[] args)
+    {
+        Main.main(new String[]{});
+    }
 }
 
 class FileManager
@@ -269,7 +272,7 @@ class ScoreAssessment
     @Override
     public String toString()
     {
-        String result = "";
+        String result = "順位,受験番号,点数,選択理科1,選択理科2";
         int rank = 1;
         int prevScore = 0;
         for (int i = 0; i < scores.length; i++)
