@@ -3,7 +3,7 @@ package SoftwareScience;
 /**
  * Created by noko on 2016/07/10.
  */
-public class R1414048
+public class Main
 {
     public static void main(String[] args)
     {
