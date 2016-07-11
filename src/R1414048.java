@@ -1,5 +1,3 @@
-package ForReport;
-
 /**
  * Created by noko on 2016/07/10.
  */
